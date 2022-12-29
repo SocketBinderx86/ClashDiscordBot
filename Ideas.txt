@@ -1,0 +1,12 @@
+1. Show clan members and tags with '!list members' command (Implemented)
+2. Setup account verification (Testing project, nearly complete)
+	- Discord user sends bot their player tag followed by the string representation of 
+	  their api token. Example would be '#9PGU8YJU dbwxemd4'
+	- Bot would then send post request to 
+	  https://api.clashofclans.com/v1/players/test/verifytoken
+	- Verification results will get stored in mysql database. relevent data includes: player tag (primary key), discord tag, player_name, role
+3. Allow players to see who discord profile is on clash. something like !whois smeboo#9965
+
+4. Setup missed war attack tracking
+5. Setup clan games tracking
+6. Setup promotion tracking
